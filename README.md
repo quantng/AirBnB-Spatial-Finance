@@ -1,2 +1,15 @@
 # AirBnB-Spatial-Finance
- 
+The proliferation of home sharing has connected individuals with underutilised lodgings with travellers willing to pay for that space (Xie, Ma, and Wu, 2019). 
+the key research question been investigated via this research is: What is the impact of temporary weather phenomena and earning potential from AirBnB on housing prices?
+
+The AirBnB data is a structured data with the following fields: listing_url	scrape_id	last_scraped	source	name	description	neighborhood_overview	picture_url	host_id	host_url	host_name	host_since	host_location	host_about	host_response_time	host_response_rate	host_acceptance_rate	host_is_superhost	host_thumbnail_url	host_picture_url	host_neighbourhood	host_listings_count	host_total_listings_count	host_verifications	host_has_profile_pic	host_identity_verified	neighbourhood	neighbourhood_cleansed	neighbourhood_group_cleansed	latitude	longitude	property_type	room_type	accommodates	bathrooms	bathrooms_text	bedrooms	beds	amenities	price	minimum_nights	maximum_nights	minimum_minimum_nights	maximum_minimum_nights	minimum_maximum_nights	maximum_maximum_nights	minimum_nights_avg_ntm	maximum_nights_avg_ntm	calendar_updated	has_availability	availability_30	availability_60	availability_90	availability_365	calendar_last_scraped	number_of_reviews	number_of_reviews_ltm	number_of_reviews_l30d	first_review	last_review	review_scores_rating	review_scores_accuracy	review_scores_cleanliness	review_scores_checkin	review_scores_communication	review_scores_location	review_scores_value	license	instant_bookable	calculated_host_listings_count	calculated_host_listings_count_entire_homes	calculated_host_listings_count_private_rooms	calculated_host_listings_count_shared_rooms	reviews_per_month
+
+The RedFin data is a structured data with the following has the following fields: period_begin	period_end	period_duration	region_type	region_type_id	table_id	is_seasonally_adjusted	region	city	state	state_code	property_type	property_type_id	median_sale_price	median_sale_price_mom	median_sale_price_yoy	median_list_price	median_list_price_mom	median_list_price_yoy	median_ppsf	median_ppsf_mom	median_ppsf_yoy	median_list_ppsf	median_list_ppsf_mom	median_list_ppsf_yoy	homes_sold	homes_sold_mom	homes_sold_yoy	pending_sales	pending_sales_mom	pending_sales_yoy	new_listings	new_listings_mom	new_listings_yoy	inventory	inventory_mom	inventory_yoy	months_of_supply	months_of_supply_mom	months_of_supply_yoy	median_dom	median_dom_mom	median_dom_yoy	avg_sale_to_list	avg_sale_to_list_mom	avg_sale_to_list_yoy	sold_above_list	sold_above_list_mom	sold_above_list_yoy	price_drops	price_drops_mom	price_drops_yoy	off_market_in_two_weeks	off_market_in_two_weeks_mom	off_market_in_two_weeks_yoy	parent_metro_region	parent_metro_region_metro_code	last_updated
+
+GWR equation: y(u) = X(u)β(u) + ε(u), where:
+y(u) is the dependent variable at location u
+X(u) is the matrix of independent variables at location u
+β(u) is the matrix of spatially varying coefficients at location u
+ε(u) is the error term at location u
+
+Ref: Xie, K., Mao, Z., & Wu, J. (2019). Learning from peers: The effect of sales history disclosure on peer-to-peer short-term rental purchase. International Journal of Hospitality Management, 76A, 173-183.
